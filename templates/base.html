@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{% block title %}{% endblock title %}Site Name</title>
+        <title>{% block title %}{% endblock title %}42 Coffee Cups Test Assignment</title>
 
         <meta http-equiv="X-UA-Compatible" content="chrome=IE7" />
 
@@ -17,6 +17,157 @@
 
     </head>
     <body id="{% block body_id %}{% endblock %}" class="{% block body_class %}{% endblock %}">
-        {% block content %}{% endblock content %}
+        {% block content %}
+		<div class="blocks-wrap">
+		  <div id="blocks" class="blocks">
+			<div class="block block_title">
+			  <div class="block-inner">
+				<div class="block-content">
+				  <div class="component header-component component-0-0">
+					<h2>
+					  <span class="component-0-0-decor-class-0"><strong><span class="component-0-0-decor-class-1">42 Coffee Cups Test Assignment</span></strong></span>
+					</h2>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="block block_content">
+			  <div class="block-inner">
+				<div class="block-content">
+				  <div class="component form-component part1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<p class="part1-decor-class-0">
+						  <span class="part1-decor-class-1"><span class="part1-decor-class-2"><strong>General info</strong></span></span>
+						</p>
+						<p>
+						  &nbsp;
+						</p>
+						<p>
+						  <span class="part1-decor-class-2"><strong>Name:</strong></span>
+						</p>
+						<p>
+						  &nbsp;
+						</p>
+						<p>
+						  <span class="part1-decor-class-2"><strong>Last name:<br>
+						  <br>
+						  Date of birth:</strong></span>
+						</p>
+						<p>
+						  <br>
+						  <span class="part1-decor-class-2"><strong>Bio:</strong></span><br>
+						  &nbsp;
+						</p>
+						<p>
+						  &nbsp;
+						</p>
+						<p>
+						  &nbsp;
+						</p>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-1-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<p class="component-1-1-decor-class-0">
+						  <span class="component-1-1-decor-class-1"><strong>Contacts</strong></span>
+						</p>
+						<p>
+						  <br>
+						  <span class="component-1-1-decor-class-1"><strong>Email:</strong></span>
+						</p>
+						<p>
+						  <br>
+						  <span class="component-1-1-decor-class-1"><strong>Jabber:</strong></span>
+						</p>
+						<p>
+						  <br>
+						  <span class="component-1-1-decor-class-1"><strong>Skype:</strong></span>
+						</p>
+						<p>
+						  <br>
+						  <span class="component-1-1-decor-class-1"><strong>Other contacts:</strong></span>
+						</p>
+					  </div>
+					</div>
+				  </div>
+			{% for i in table_data %}
+				  <div class="component form-component component-10-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<span class="component-10-1-decor-class-0"><strong>{{i.name}}</strong></span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-11-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<span class="component-11-1-decor-class-0"><strong>{{i.lastname}}</strong></span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-12-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<span class="component-12-1-decor-class-0"><strong>{{i.birthdate}}</strong></span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-13-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<span class="component-13-1-decor-class-0"><strong>{{i.email}}</strong></span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-14-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<strong><span class="component-14-1-decor-class-0">{{i.jabber}}</span></strong>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-15-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<strong><span class="component-15-1-decor-class-0">{{i.skype}}</span></strong>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-16-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<span class="component-16-1-decor-class-0"><strong>{{i.bio}}</strong></span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="component form-component component-17-1">
+					<div class="form-wrap">
+					  <div class="form-substrate"></div>
+					  <div class="form-text">
+						<p>						
+						  <span class="component-17-1-decor-class-0"><strong>{{i.othcontacts}}</strong></span>
+						</p>				
+					  </div>
+					</div>
+				  </div>
+				</div>
+			{% endfor %}
+			  </div>
+			</div>
+		  </div>
+		</div>
+	{% endblock content %}		
     </body>
 </html>

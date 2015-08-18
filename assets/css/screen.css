@@ -1,1 +1,324 @@
- 
+html, body{
+	padding:0;
+	margin:0;
+	font-size:14px;
+	font-family:Arial,"sans-serif";
+}
+
+html, body,div,p,h1,h2,h3{
+	padding:0;
+	margin:0;
+}
+
+a{
+	color:#fff;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.wrap_960{
+	width:960px;
+	margin:0 auto;
+}
+
+.blocks{
+	margin:0 auto;
+	width:960px;
+}
+
+.block{
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:50% 0;
+	overflow:hidden;
+}
+
+.block-inner{
+	position:relative;
+}
+
+.wrap_960{
+	width:960px;
+	margin:0 auto;
+}
+
+.block-content{
+	position:relative;
+	padding:10px 20px 30px 10px;
+}
+
+.component{
+	padding:5px 10px;
+}
+
+.block.block_title{
+	background-color:#690c69;
+}
+
+.block.block_title .block-content{
+	min-height:45px;
+}
+
+.header-component{
+	position:relative;
+	color:#4a4a4a;
+	z-index:100;
+}
+
+.header-component h2{
+	font-size:25px;
+	font-weight:normal;
+}
+
+.component-0-0 .component-0-0-decor-class-0{
+	color:#ffffcc;
+}
+
+.component-0-0 .component-0-0-decor-class-1{
+	font-family:comic sans ms,cursive;
+}
+
+.block.block_content .block-content{
+	min-height:615px;
+}
+
+.form-component{
+	position:absolute;
+	padding:0;
+}
+
+.form-component .form-text{
+	position:relative;
+	padding:10px;
+	overflow:hidden;
+	color:#fff;
+}
+
+.form-component .form-substrate{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+}
+
+.form-component a{
+	color:blue;
+	text-decoration:underline;
+}
+
+.form-component a:hover{
+	text-decoration:none;
+}
+
+.form-component.part1{
+	left:10px;
+	top:10px;
+	z-index:100;
+}
+
+.form-component.part1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.part1 .form-text{
+	width:441px;
+	height:150px;
+}
+
+.part1 .part1-decor-class-0{
+	text-align: center;
+}
+
+.part1 .part1-decor-class-1{
+	font-size:14px;
+}
+
+.part1 .part1-decor-class-2{
+	color:#006699;
+}
+
+.form-component.component-1-1{
+	left:490px;
+	top:9px;
+	z-index:100;
+}
+
+.form-component.component-1-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-1-1 .form-text{
+	width:439px;
+	height:149px;
+}
+
+.component-1-1 .component-1-1-decor-class-0{
+	text-align: center;
+}
+
+.component-1-1 .component-1-1-decor-class-1{
+	color:#006699;
+}
+
+.form-component.component-10-1{
+	left:118px;
+	top:40px;
+	z-index:100;
+}
+
+.form-component.component-10-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-10-1 .form-text{
+	width:239px;
+	height:13px;
+}
+
+.component-10-1 .component-10-1-decor-class-0{
+	color:#663366;
+}
+
+.form-component.component-11-1{
+	left:118px;
+	top:74px;
+	z-index:100;
+}
+
+.form-component.component-11-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-11-1 .form-text{
+	width:240px;
+	height:13px;
+}
+
+.component-11-1 .component-11-1-decor-class-0{
+	color:#663366;
+}
+
+.form-component.component-12-1{
+	left:119px;
+	top:108px;
+	z-index:100;
+}
+
+.form-component.component-12-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-12-1 .form-text{
+	width:148px;
+	height:13px;
+}
+
+.component-12-1 .component-12-1-decor-class-0{
+	color:#663366;
+}
+
+.form-component.component-13-1{
+	left:568px;
+	top:39px;
+	z-index:100;
+}
+
+.form-component.component-13-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-13-1 .form-text{
+	width:241px;
+	height:13px;
+}
+
+.component-13-1 .component-13-1-decor-class-0{
+	color:#663366;
+}
+
+.form-component.component-14-1{
+	left:568px;
+	top:73px;
+	z-index:100;
+}
+
+.form-component.component-14-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-14-1 .form-text{
+	width:240px;
+	height:13px;
+}
+
+.component-14-1 .component-14-1-decor-class-0{
+	color:#663366;
+}
+
+.form-component.component-15-1{
+	left:568px;
+	top:107px;
+	z-index:100;
+}
+
+.form-component.component-15-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-15-1 .form-text{
+	width:242px;
+	height:14px;
+}
+
+.component-15-1 .component-15-1-decor-class-0{
+	color:#663366;
+}
+
+.form-component.component-16-1{
+	left:20px;
+	top:172px;
+	z-index:100;
+}
+
+.form-component.component-16-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-16-1 .form-text{
+	width:411px;
+	height:306px;
+}
+
+.component-16-1 .component-16-1-decor-class-0{
+	color:#663366;
+}
+
+.form-component.component-17-1{
+	left:500px;
+	top:171px;
+	z-index:100;
+}
+
+.form-component.component-17-1 .form-substrate{
+	background-color:#000000;
+	opacity:0;
+}
+
+.form-component.component-17-1 .form-text{
+	width:411px;
+	height:308px;
+}
+
+.component-17-1 .component-17-1-decor-class-0{
+	color:#663366;
+}
