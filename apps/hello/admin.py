@@ -1,4 +1,4 @@
 from django.contrib import admin
 import models
-# Register your models here.
-admin.site.register(models.ident)
+""" Include Devinfo model to administration """
+admin.site.register(models.Devinfo)

@@ -111,214 +111,214 @@ a{
 	text-decoration:none;
 }
 
-.form-component.part1{
+.form-component.general_info_part{
 	left:10px;
 	top:10px;
 	z-index:100;
 }
 
-.form-component.part1 .form-substrate{
+.form-component.general_info_part .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.part1 .form-text{
+.form-component.general_info_part .form-text{
 	width:441px;
 	height:150px;
 }
 
-.part1 .part1-decor-class-0{
+.general_info_part .general_info_part-decor-class-0{
 	text-align: center;
 }
 
-.part1 .part1-decor-class-1{
+.general_info_part .general_info_part-decor-class-1{
 	font-size:14px;
 }
 
-.part1 .part1-decor-class-2{
+.general_info_part .general_info_part-decor-class-2{
 	color:#006699;
 }
 
-.form-component.component-1-1{
+.form-component.contacts_part{
 	left:490px;
 	top:9px;
 	z-index:100;
 }
 
-.form-component.component-1-1 .form-substrate{
+.form-component.contacts_part .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-1-1 .form-text{
+.form-component.contacts_part .form-text{
 	width:439px;
 	height:149px;
 }
 
-.component-1-1 .component-1-1-decor-class-0{
+.contacts_part .contacts_part-decor-class-0{
 	text-align: center;
 }
 
-.component-1-1 .component-1-1-decor-class-1{
+.contacts_part .contacts_part-decor-class-1{
 	color:#006699;
 }
 
-.form-component.component-10-1{
+.form-component.field_name{
 	left:118px;
 	top:40px;
 	z-index:100;
 }
 
-.form-component.component-10-1 .form-substrate{
+.form-component.field_name .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-10-1 .form-text{
+.form-component.field_name .form-text{
 	width:239px;
 	height:13px;
 }
 
-.component-10-1 .component-10-1-decor-class-0{
+.field_name .field_name-decor-class-0{
 	color:#663366;
 }
 
-.form-component.component-11-1{
+.form-component.field_last_name{
 	left:118px;
 	top:74px;
 	z-index:100;
 }
 
-.form-component.component-11-1 .form-substrate{
+.form-component.field_last_name .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-11-1 .form-text{
+.form-component.field_last_name .form-text{
 	width:240px;
 	height:13px;
 }
 
-.component-11-1 .component-11-1-decor-class-0{
+.field_last_name .field_last_name-decor-class-0{
 	color:#663366;
 }
 
-.form-component.component-12-1{
+.form-component.field_birthdate{
 	left:119px;
 	top:108px;
 	z-index:100;
 }
 
-.form-component.component-12-1 .form-substrate{
+.form-component.field_birthdate .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-12-1 .form-text{
+.form-component.field_birthdate .form-text{
 	width:148px;
 	height:13px;
 }
 
-.component-12-1 .component-12-1-decor-class-0{
+.field_birthdate .field_birthdate-decor-class-0{
 	color:#663366;
 }
 
-.form-component.component-13-1{
+.form-component.field_email{
 	left:568px;
 	top:39px;
 	z-index:100;
 }
 
-.form-component.component-13-1 .form-substrate{
+.form-component.field_email .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-13-1 .form-text{
+.form-component.field_email .form-text{
 	width:241px;
 	height:13px;
 }
 
-.component-13-1 .component-13-1-decor-class-0{
+.field_email .field_email-decor-class-0{
 	color:#663366;
 }
 
-.form-component.component-14-1{
+.form-component.field_jabber{
 	left:568px;
 	top:73px;
 	z-index:100;
 }
 
-.form-component.component-14-1 .form-substrate{
+.form-component.field_jabber .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-14-1 .form-text{
+.field_jabber.field_jabber .form-text{
 	width:240px;
 	height:13px;
 }
 
-.component-14-1 .component-14-1-decor-class-0{
+.field_jabber .field_jabber-decor-class-0{
 	color:#663366;
 }
 
-.form-component.component-15-1{
+.form-component.field_skype{
 	left:568px;
 	top:107px;
 	z-index:100;
 }
 
-.form-component.component-15-1 .form-substrate{
+.form-component.field_skype .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-15-1 .form-text{
+.form-component.field_skype .form-text{
 	width:242px;
 	height:14px;
 }
 
-.component-15-1 .component-15-1-decor-class-0{
+.field_skype .field_skype-decor-class-0{
 	color:#663366;
 }
 
-.form-component.component-16-1{
+.form-component.field_bio{
 	left:20px;
 	top:172px;
 	z-index:100;
 }
 
-.form-component.component-16-1 .form-substrate{
+.form-component.field_bio .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-16-1 .form-text{
+.form-component.field_bio .form-text{
 	width:411px;
 	height:306px;
 }
 
-.component-16-1 .component-16-1-decor-class-0{
+.field_bio .field_bio-decor-class-0{
 	color:#663366;
 }
 
-.form-component.component-17-1{
+.form-component.field_other_contacts{
 	left:500px;
 	top:171px;
 	z-index:100;
 }
 
-.form-component.component-17-1 .form-substrate{
+.form-component.field_other_contacts .form-substrate{
 	background-color:#000000;
 	opacity:0;
 }
 
-.form-component.component-17-1 .form-text{
+.form-component.field_other_contacts .form-text{
 	width:411px;
 	height:308px;
 }
 
-.component-17-1 .component-17-1-decor-class-0{
+.field_other_contacts .field_other_contacts-decor-class-0{
 	color:#663366;
 }

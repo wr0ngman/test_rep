@@ -1,15 +1,8 @@
 from django.shortcuts import render
-from hello.models import ident
+from hello.models import Devinfo
 
-#List_view_use#from hello.models import ident
-#List_view_use#from django.views.generic import ListView
+""" Subscribe developer information view to return all fields of the models into the html page """
 
-# Create your views here.
-
-def helloview(request):
-	table_data = ident.objects.all()
-	return render(request,'/home/wr0ngman/git/42coffe/FortyTwoTestTask/templates/base.html',{"table_data": table_data})
-
-#List_view_use#class HelloView(ListView):
-#List_view_use#      model = ident
-#List_view_use#      template_name = '/home/wr0ngman/git/42coffe/FortyTwoTestTask/templates/base.html'
+def devinfo_view(request):
+	devinfo_data = Devinfo.objects.all()
+	return render(request,'base.html',{"devinfo_data": devinfo_data})

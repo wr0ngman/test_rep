@@ -1,7 +1,7 @@
 from django.db import models
 
-# Create your models here.
-class ident(models.Model):
+""" Subscribe developer information model fields """
+class Devinfo(models.Model):
 
     name = models.CharField(max_length=255)
     lastname = models.CharField(max_length=255)
@@ -12,4 +12,4 @@ class ident(models.Model):
     skype = models.CharField(max_length=100)
     othcontacts = models.TextField()
     def __unicode__(self):
-        return u'%s %s %s %s %s %s %s %s'%(self.name, self.lastname, self.birthdate, self.bio, self.email, self.jabber, self.skype, self.othcontacts)
+        return u'Information about: %s %s email:%s ;jabber:%s'%(self.name, self.lastname, self.email, self.jabber)
