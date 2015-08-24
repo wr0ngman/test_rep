@@ -1,5 +1,6 @@
 from django.db import models
 
+<<<<<<< HEAD
 """ Subscribe developer information model fields """
 class Devinfo(models.Model):
 
@@ -13,3 +14,10 @@ class Devinfo(models.Model):
     othcontacts = models.TextField()
     def __unicode__(self):
         return u'Information about: %s %s email:%s ;jabber:%s'%(self.name, self.lastname, self.email, self.jabber)
+=======
+# Create your models here.
+class info(models.Model)
+	name = models.CharField(max_length='250')
+	def __str__(self):
+		return u'$ $'%('Info about:',self.name)
+>>>>>>> fa3a7ceb5e6502def0a5cf344dacc4caf328e0bf
