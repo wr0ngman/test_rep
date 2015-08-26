@@ -1,24 +1,22 @@
-from django.test import LiveServerTestCase
-from selenium.webdriver.firefox.webdriver import WebDriver
-from hello.models import Devinfo
+from apps.hello import models
+from django.test import TestCase
 
-"""TESTING VZ SELENIUM"""
-class HelloTests(LiveServerTestCase):
+class HelloTests(TestCase):
+##create a test record into base    
+    def test_devinfo_displayed(self):            
+        models.Devinfo.objects.create(name='Roma',
+            lastname='Shevchuk',
+            birthdate='1985-05-17', bio='...',
+            email='wrongman@gmail.com',
+            jabber='wr0ngman@khavr.com',
+            skype='wr0ngman',
+            othcontacts='+380989682061')
+        dev = models.Devinfo.objects.get(pk=1)
+        assert(dev.name == u'Roma')
+        assert(dev.lastname == u'Shevchuk')
+        assert(dev.birthdate.strftime('%Y-%m-%d') == u'1985-05-17')
+        assert(dev.email == u'wrongman@gmail.com')
+        assert(dev.jabber == u'wr0ngman@khavr.com')
+        assert(dev.skype == u'wr0ngman')
+        assert(dev.othcontacts == u'+380989682061')
 
-    @classmethod
-    def setUpClass(cls):
-        cls.selenium = WebDriver()
-        super(HelloTests, cls).setUpClass()
-        
-    @classmethod
-    def tearDownClass(cls):
-        cls.selenium.quit()
-        super(HelloTests, cls).tearDownClass()
-        
-    def test_devinfo_displayed(self):
-    
-        # create a test record into base
-        Devinfo.objects.create(name='Roma', lastname='Shevchuk', email='wrongman@gmail.com', birthdate='1985-05-17', bio='All good', jabber='jabber-ID', othcontacts='+380989682061')
-
-        self.selenium.get('%s%s' % (self.live_server_url, '/'))
-        self.assertEqual(self.selenium.find_elements_by_css_selector('.field_name-decor-class-0')[0].text,'Roma')

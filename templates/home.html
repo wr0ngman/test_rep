@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="blocks-wrap">
+      <div id="blocks" class="blocks">
+        <div class="block block_title">
+          <div class="block-inner">
+            <div class="block-content">
+              <div class="component header-component component-0-0">
+                <h2>
+                  <span class="component-0-0-decor-class-0"><strong><span class="component-0-0-decor-class-1">42 Coffee Cups Test Assignment</span></strong></span>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block block_content">
+          <div class="block-inner">
+            <div class="block-content">
+              <div class="component form-component general_info_part">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <p class="general_info_part-decor-class-0">
+                      <span class="general_info_part-decor-class-1"><span class="general_info_part-decor-class-2"><strong>General info</strong></span></span>
+                    </p>
+                    <p>
+                      &nbsp;
+                    </p>
+                    <p>
+                      <span class="general_info_part-decor-class-2"><strong>Name:</strong></span>
+                    </p>
+                    <p>
+                      &nbsp;
+                    </p>
+                    <p>
+                      <span class="general_info_part-decor-class-2"><strong>Last name:<br>
+                      <br>
+                      Date of birth:</strong></span>
+                    </p>
+                    <p>
+                      <br>
+                      <span class="general_info_part-decor-class-2"><strong>Bio:</strong></span><br>
+                      &nbsp;
+                    </p>
+                    <p>
+                      &nbsp;
+                    </p>
+                    <p>
+                      &nbsp;
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component contacts_part">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <p class="contacts_part-decor-class-0">
+                      <span class="contacts_part-decor-class-1"><strong>Contacts</strong></span>
+                    </p>
+                    <p>
+                      <br>
+                      <span class="contacts_part-decor-class-1"><strong>Email:</strong></span>
+                    </p>
+                    <p>
+                      <br>
+                      <span class="contacts_part-decor-class-1"><strong>Jabber:</strong></span>
+                    </p>
+                    <p>
+                      <br>
+                      <span class="contacts_part-decor-class-1"><strong>Skype:</strong></span>
+                    </p>
+                    <p>
+                      <br>
+                      <span class="contacts_part-decor-class-1"><strong>Other contacts:</strong></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_name">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <span id="base_name" class="field_name-decor-class-0"><strong>{{devinfo_data.name}}</span></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_last_name">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <span id="base_lastname" class="field_last_name-decor-class-0"><strong>{{devinfo_data.lastname}}</span></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_birthdate">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <span id="base_birthdate" class="field_birthdate-decor-class-0"><strong>{{devinfo_data.birthdate}}</span></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_email">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <span id="base_email" class="field_email-decor-class-0"><strong>{{devinfo_data.email}}</span></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_jabber">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <strong><span id="base_jabber" class="field_jabber-decor-class-0">{{devinfo_data.jabber}}</span></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_skype">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <strong><span id="base_skype" class="field_skype-decor-class-0">{{devinfo_data.skype}}</span></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_bio">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <span id="base_bio" class="field_bio-decor-class-0"><strong>{{devinfo_data.bio}}</span></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="component form-component field_other_contacts">
+                <div class="form-wrap">
+                  <div class="form-substrate"></div>
+                  <div class="form-text">
+                    <p>
+                      <span id="base_othcontacts" class="field_other_contacts-decor-class-0"><strong>{{devinfo_data.othcontacts}}</span></strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>		
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
